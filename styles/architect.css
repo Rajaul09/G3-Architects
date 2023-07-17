@@ -8,8 +8,14 @@ header{
     background: rgba(225, 144, 14, 0.10);
     padding: 50px 240px;
 }
+.section-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #131313;
+}
 .text-light-gray{
     color: #727272;
+
 }
 .btn-primary, .btn-team{ 
     background-color: #ff900e;
@@ -25,11 +31,7 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
-.nav-title{
-    font-size: 2.8rem;
-    font-weight: 700;
-    color: #131313;
-}
+
 nav > ul{
     display: flex;
 }
@@ -96,6 +98,25 @@ main{
     color: #ff900e;
     font-weight: 700;
 }
+.facts-card-container{
+    display: flex;
+    justify-content: space-around;
+
+} 
+.facts-card-container, .card{
+
+    border-radius: 8px; 
+    border: 1px solid #ff900e;
+    text-align: center;
+    gap: 10px;
+}
+.facts-card-container{
+    border: 0;
+}
+.facts-card-container, .card-starts{
+    font-size: 2.8rem;
+    color: #424242;
+}
 /* responsive Media quary */
 @media screen and (max-width:576px) {
     header{
@@ -121,3 +142,4 @@ main{
     }
     
 }
+
